@@ -1,0 +1,90 @@
+
+
+
+@media (max-width:1024px){
+    .plate-buybnt{
+        padding: 14px 16px;
+    }.send {
+        PADDING: 16PX 17PX;
+    }
+    input.form-control {
+        padding: 14px;
+    }
+    .social {
+        font-size: 44px;
+
+    }
+    .contact-info {
+
+        line-height: 1.8;
+    }
+}
+@media (max-width:740px) {
+    #content .width-60{
+        width: 60%;
+    }
+    .pading-0{
+        padding: 0 0;
+    }
+    .magin-0{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .marginbt-16
+    {
+        margin-bottom: 16px;
+    }
+    .marginbt-8
+    {
+        margin-bottom: 8px;
+    }
+    
+    #content .width-100,
+    .width-100{
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav a{
+        width: 100%;
+    } 
+    #nav li:first-child{
+        display: inline-block;
+    }
+    div#mobie-mn {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #header .search-icon{
+        display: none;
+    }
+    .mobie-menu {
+        display: block;
+        color: #fff;
+        float: right;
+        padding: 15px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    .mobie-menu:hover{
+        color: #000;
+        background-color: #ccc;
+      
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+       
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .content-section{
+        margin-bottom: 0px;
+    }
+}

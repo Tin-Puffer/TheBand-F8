@@ -1,0 +1,101 @@
+.model{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: none;
+    z-index: 3;
+    
+
+}
+@keyframes modeldown{
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+.model.open{
+    display: flex;
+}
+.model-body {
+    margin: 0px 16px;
+    
+}
+.model-container {
+    background-color: #fff;
+    width: 900px;
+    max-width: calc(100%-32px);
+    min-height: 200px;
+    position: relative;
+    animation:  modeldown ease 0.3s;
+}
+.moder-header{
+    background-color: #009688;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff ;
+}
+
+i.ti-bag {
+    margin-right: 10px;
+}
+
+.model-close {
+    position: absolute;
+    right: 0px;
+    color: aliceblue;
+    padding: 16px;
+    font-size: 16px;
+}
+.model-close:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #ccc;
+}
+label.model-lable {
+    display: block;
+    padding: 15px 0px;
+    font-size: 15px;
+    /* margin: 0; */
+}
+
+input.model-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    padding: 11px;
+}
+button.buy-ticket {
+    width: 100%;
+    margin: 16px 0;
+    font-size: 15px;
+    padding: 16px 0px;
+    background: #009688;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+button.buy-ticket:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.model-footer {
+    font-size: 15px;
+    text-align: right;
+    padding: 0px 16px 16px;
+    
+    left: -20px;
+}
